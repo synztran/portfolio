@@ -25,6 +25,8 @@ import {
   IoLogoLinkedin
 } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
+import VoxelDog from '../components/voxel-dog'
+import NoSsr from '../components/no-ssr'
 
 import thumbYoutube from '../public/images/links/youtube.png'
 const Page = () => {
@@ -32,6 +34,9 @@ const Page = () => {
     <ArticleLayout>
       <Container>
         <Model />
+        <NoSsr>
+          <VoxelDog />
+        </NoSsr>
         <Box
           borderRadius="lg"
           bg={useColorModeValue('blackAlpha.500', 'whiteAlpha.200')}
@@ -103,13 +108,25 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            <BioContent>Worked at Aris Vietnam</BioContent>
+            <BioContent>Front-ennd Dev at Aris Vietnam</BioContent>
           </BioSection>
           <BioSection>
-            <BioYear>2021 - Present</BioYear>
+            <BioYear>2021</BioYear>
             <BioContent>
-              Onsite Dev at Be group
+              Onsite Front-end Dev at Be group
               <Image ml={2} alt="be_logo" src="/images/be.svg" />
+            </BioContent>
+          </BioSection>
+          <BioSection>
+            <BioYear>2022 - present</BioYear>
+            <BioContent>
+              Software Engineer at Thuocsi
+              <Image
+                ml={2}
+                alt="be_logo"
+                src="/images/thuoc-si.svg"
+                style={{ width: '96px', height: '24px' }}
+              />
             </BioContent>
           </BioSection>
         </Section>

@@ -2,15 +2,10 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-// import { loadGLTFModel } from '../libs/model'
-// import Stats from 'three/examples/jsm/libs/stats.module.js'
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
-// function easeOutCirc(x) {
-//   return Math.sqrt(1 - Math.pow(x - 1, 4))
-// }
 const VoxelDog = () => {
   const refContainer = useRef(null)
   const [loading, setLoading] = useState(true)
