@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Paragraph from '../../components/paragraph'
 import thumbCode_1 from '../../public/images/posts/post-1.jpg'
 
-const PostDetailPage = props => {
+const PostDetailPage = () => {
   const title = 'socializing-at-work'
   const content = `...`
   const convertBr = content => {
