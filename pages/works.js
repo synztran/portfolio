@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbNoobstore from '../public/images/works/work-1.png'
-import thumbAdmin from '../public/images/works/work-2.png'
+// import thumbAdmin from '../public/images/works/work-2.png'
 
 const WorksPage = () => {
   return (
