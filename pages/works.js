@@ -20,11 +20,11 @@ const WorksPage = () => {
             A webpage service keyboard
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="admin" title="Admin page" thumbnail={thumbAdmin}>
             A admin page manager noobstore page
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
     </Container>
   )
